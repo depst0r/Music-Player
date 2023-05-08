@@ -17,16 +17,24 @@ window.addEventListener("DOMContentLoaded", function () {
   //     })
   //   }
 
-  fetch("http://localhost:3000/music")
-    .then((res) => {
-      res.json;
-    })
-    .then((data) => {
-      console.log(data);
-    });
+  function dataBaseMusic(data) {
+    fetch(data)
+      .then((dataJSON) => dataJSON.json())
+      .then((res) => console.log(res));
+  }
+
+  class MyMysic {
+    constructor(id, artistName, nameOfTheSong, img, duration) {
+      this.id = id;
+      this.artistName = artistName;
+      this.nameOfTheSong = nameOfTheSong;
+      this.img = img;
+      this.duration = duration;
+      this.parent = document.querySelector(parentSelector);
+    }
+  }
 
   like(heart);
   function playPauseBnts(btns) {}
-  kk;
   playPauseBnts(btns);
 });
