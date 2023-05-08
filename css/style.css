@@ -64,3 +64,50 @@ body {
     justify-content: center;
     align-items: center;
 }
+.content {
+    width: 300px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img_div {
+    width: 120px;
+    height: 120px;
+    background-color: #eee;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #00FF00;
+    box-shadow: 2px 2px 3px #00000027,
+                -2px -2px 3px #fff,
+                inset 2px 2px 3px #00000027,
+                inset -2px -2px 3px #fff;
+}
+.img_inner {
+    width: 95px;
+    height: 95px;
+    background: center/cover url('https://disgustingmen.com/wp-content/uploads/2017/11/best-akbum-xxi-5.jpg') no-repeat;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px #00000027,
+                -2px -2px 3px #fff;
+}
+.icon3 {
+    width: 280px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+section{
+    padding: 0 10px;
+}
+.name{
+    color: #444;
+    font-size: 22px;
+}
+#name1 {
+    color: #ff0000;
+}
