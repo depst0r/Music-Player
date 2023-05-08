@@ -1,7 +1,18 @@
 {
     "music": [
         {
-            id: 1
+            "id": "1",
+            "artistName": "Basta",
+            "nameOfTheSong": "Sansara",
+            "img": "../img/sansara.jfif",
+            "duration": "6:03"
+        },
+        {
+            "id": "2",
+            "artistName": "Miyagi", 
+            "nameOfTheSong": "Samurai",
+            "img": "../img/samurai.jpg",
+            "duration": "2:44"
         }
     ]
 }
