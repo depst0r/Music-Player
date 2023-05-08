@@ -38,3 +38,29 @@ body {
     box-shadow: 4px 4px 6px #ccc,
                 -4px -4px 6px #fff;
 }
+.fa-heart {
+    color:#ff0000;
+}
+.fa-ellipses-h{
+    color: orange;
+}
+.fa-pause{
+    background-color: orange;
+    color: red;
+    box-shadow: 4px 4px 6px #00000027,
+                -4px -4px 6px #ccc;
+}
+#pause {
+    background-color: #bababa;
+    border-radius:7px;
+}
+.heading {
+    font-size: 25px;
+}
+.icon2 {
+    width: 300px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
