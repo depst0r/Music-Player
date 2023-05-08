@@ -38,10 +38,11 @@ body {
     box-shadow: 4px 4px 6px #ccc,
                 -4px -4px 6px #fff;
 }
-.fa-heart {
+.active {
     color:#ff0000;
+    background-color: orange;
 }
-.fa-ellipses-h{
+.fa-ellipsis-h{
     color: orange;
 }
 .fa-pause{
@@ -110,4 +111,7 @@ section{
 }
 #name1 {
     color: #ff0000;
+}
+i {
+    cursor: pointer;
 }
