@@ -11,11 +11,8 @@ window.addEventListener("DOMContentLoaded", function () {
 
   class MySongs {
     constructor(artistName, nameOfTheSong, img, duration, ...classes) {
-      this.artistName = artistName;
       this.nameOfTheSong = nameOfTheSong;
-      this.img = img;
-      // this.duration = duration;
-      this.parent = document.querySelector(".songs");
+      this.parent = document.querySelector(".song");
       this.classes = classes;
     }
 
@@ -48,8 +45,8 @@ window.addEventListener("DOMContentLoaded", function () {
   };
 
   getPlayList("http://localhost:3000/music").then((data) => {
-    data.forEach(({ artistName, nameOfTheSong, img }) => {
-      new MySongs(artistName, nameOfTheSong, img, ".songs .song").render();
+    data.map(({ artistName, nameOfTheSong, img, duration }) => {
+      new MySongs(artistName, nameOfTheSong, img, duration).render();
     });
   });
 
