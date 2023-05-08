@@ -13,6 +13,34 @@
             "nameOfTheSong": "Samurai",
             "img": "../img/samurai.jpg",
             "duration": "2:44"
+        },
+        {
+            "id": "3",
+            "artistName": "Xassa", 
+            "nameOfTheSong": "Romantic",
+            "img": "../img/romantic.jpg",
+            "duration": "2:55"
+        },
+        {
+            "id": "4",
+            "artistName": "Eminem", 
+            "nameOfTheSong": "The Monster",
+            "img": "../img/The_Monster.png",
+            "duration": "4:11"
+        },
+        {
+            "id": "5",
+            "artistName": "Rammstein", 
+            "nameOfTheSong": "Du Riechst So Gut",
+            "img": "../img/du.jpg",
+            "duration": "4:52"
+        },
+        {
+            "id": "6",
+            "artistName": "Minelli", 
+            "nameOfTheSong": "Rampampam",
+            "img": "../img/rampampam.jpg",
+            "duration": "3:20"
         }
     ]
 }
