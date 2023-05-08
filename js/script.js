@@ -27,6 +27,6 @@ window.addEventListener("DOMContentLoaded", function () {
 
   like(heart);
   function playPauseBnts(btns) {}
-
+  kk;
   playPauseBnts(btns);
 });
