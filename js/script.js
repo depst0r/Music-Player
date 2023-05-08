@@ -8,6 +8,13 @@ window.addEventListener("DOMContentLoaded", function () {
       heart.classList.toggle("active");
     });
   };
+
+  function animation(iterm) {
+    const start = Date.now();
+  }
+
+  console.log(Date.now());
+
   like(heart);
   function playPauseBnts(btns) {}
 
