@@ -115,3 +115,12 @@ section{
 i {
     cursor: pointer;
 }
+i {
+    background: url()
+}
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
