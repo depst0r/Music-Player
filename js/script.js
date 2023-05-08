@@ -9,11 +9,21 @@ window.addEventListener("DOMContentLoaded", function () {
     });
   };
 
-  function animation(iterm) {
-    const start = Date.now();
-  }
+  //   function animation(iterm) {
+  //     const start = Date.now();
 
-  console.log(Date.now());
+  //     const timer = setInterval(() => {
+  //         let timePassed =
+  //     })
+  //   }
+
+  fetch("http://localhost:3000/music")
+    .then((res) => {
+      res.json;
+    })
+    .then((data) => {
+      console.log(data);
+    });
 
   like(heart);
   function playPauseBnts(btns) {}

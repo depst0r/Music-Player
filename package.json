@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "json-server": "^0.17.3"
-  }
+  },
+  "name": "music-player",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depst0r/t.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/depst0r/t/issues"
+  },
+  "homepage": "https://github.com/depst0r/t#readme",
+  "description": ""
 }
